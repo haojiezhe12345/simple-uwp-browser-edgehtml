@@ -79,5 +79,10 @@ namespace App1
                 args.Handled = true;
             } catch { }
         }
+
+        private void address_GotFocus(object sender, RoutedEventArgs e)
+        {
+            address.SelectAll();
+        }
     }
 }
